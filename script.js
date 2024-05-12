@@ -1,8 +1,8 @@
 // ROCK SCISSOR PAPER
 
-const playerSelection = prompt("Enter Your Word : ");
-const computerSelection = getComputerChoice();
-console.log(playRound(playerSelection, computerSelection));
+// const playerSelection = prompt("Enter Your Word : ");
+// const computerSelection = getComputerChoice();
+// console.log(playRound(playerSelection, computerSelection));
 
 function getComputerChoice() {
   // Function that will randomly return either ‘Rock’, ‘Paper’ or ‘Scissors’.
@@ -28,12 +28,7 @@ function playRound(playerSelection, computerSelection) {
   }
 }
 
-function playGame() {
-  // Play a single round
-  const playerSelection = prompt("Enter Your Word : ");
-  const computerSelection = getComputerChoice();
-  console.log(playRound(playerSelection, computerSelection));
-}
+
 
 // Call the playGame function to start the game
 playGame();
